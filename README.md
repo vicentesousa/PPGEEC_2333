@@ -12,8 +12,12 @@
 ## PARTE II: Arquitetura e prototipagem de funcionalidades para sistemas Comunicações Móveis Ciclo de seminários
 
 ### Instalação de sistemas 4G e 5G (Discussão em sala sobre como explorar o código ou melhorar nos HOWTOS)
-   - Instalação de versão do OAI 5G simulada por compilação do código (Todos) – HOWTO já disponível
-   - Instalação de versão OAI 5G simulada via imagens Docker (Todos) – HOWTO já disponível
+   - Instalação de versão do OAI 5G simulada por compilação do código
+      - Hands-on 01: Instalação de Máquina Virtual - [Link via Github](https://github.com/vicentesousa/DCO1020/blob/main/H00_VM_VBox.ipynb) - [Link alternativo via nbviewer](https://nbviewer.jupyter.org/github/vicentesousa/DCO1020/blob/main/H00_VM_VBox.ipynb)
+      - Hands-on 02: Instalação de Núcleo do Rede 5G (5GC) - [Link via Github](https://github.com/vicentesousa/DCO1020/blob/main/H01_5GCore_UNI_III.ipynb) - [Link alternativo via nbviewer](https://nbviewer.jupyter.org/github/vicentesousa/DCO1020/blob/main/H01_5GCore_UNI_III.ipynb)
+      - Hands-on 03: Instalação da estação base 5G (gNB) - [Link via Github](https://github.com/vicentesousa/DCO1020/blob/main/H02_5G_gNB_UNI_III.ipynb) - [Link alternativo via nbviewer](https://nbviewer.jupyter.org/github/vicentesousa/DCO1020/blob/main/H02_5G_gNB_UNI_III.ipynb)
+      - Hands-on 04: Instalação do User Equipment (UE) - [Link via Github](https://github.com/vicentesousa/DCO1020/blob/main/H03_5G_UE_UNI_III.ipynb) - [Link alternativo via nbviewer](https://nbviewer.jupyter.org/github/vicentesousa/DCO1020/blob/main/H03_5G_UE_UNI_III.ipynb)
+   - Instalação de versão OAI 5G simulada via imagens Docker [Link via Github](https://github.com/vicentesousa/DCO1020/blob/main/H01_5GFast_Deployment_UNI_III.ipynb) - [Link alternativo via nbviewer](https://nbviewer.jupyter.org/github/vicentesousa/DCO1020/blob/main/H01_5GFast_Deployment_UNI_III.ipynb)
    - Instalação de versão OAI 4G simulada (Todos) – HOWTO a ser construído
    - Validação de Instalação de versão mais atualizada do OAI (todos) – HOWTO a ser construído
 
