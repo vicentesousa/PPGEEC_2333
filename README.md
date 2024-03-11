@@ -2,7 +2,7 @@
 
 ## PARTE I: Warmup em tecnologias de Comunicações Móveis Contemporâneas
 
-# Apresentações:
+### Apresentações:
    - OPEN-RAN Introduction ([slides](https://github.com/vicentesousa/PPGEEC_2333/blob/main/...); [vídeo](https://github.com/vicentesousa/PPGEEC_2333/blob/main/...))
    - 5G prototyping tools: OAI (Matheus) - Quinta
    - 5G prototyping tools: srsRAN (Ricardo) - Terça
