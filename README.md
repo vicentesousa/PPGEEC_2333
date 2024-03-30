@@ -23,5 +23,5 @@
 
 ### Construção de HOWTOS
    - Instalação de versão OAI 4G simulada (Paulo) – Construção de HOWTO
-   - Instalação de versão mais atualizada do OAI (Ricardo) – Construção de HOWTO 
+   - Instalação de versão mais atualizada do OAI (Ricardo) – [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/blob/main/howtos/H01_5GFast_Deployment_UPDATED_v2.1.ipynb)
    - Instalação de 5G com srsRAN simulada (Carlos e Matheus) – Construção de HOWTO
