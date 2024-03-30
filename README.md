@@ -5,7 +5,7 @@
 ### Apresentações:
    - OPEN-RAN Introduction ([slides](https://github.com/vicentesousa/PPGEEC_2333/tree/main/slides/); [vídeo](https://github.com/vicentesousa/PPGEEC_2333/tree/main/slides/))
    - 5G prototyping tools: OAI ([slides](https://github.com/vicentesousa/PPGEEC_2333/tree/main/slides/); [vídeo](https://github.com/vicentesousa/PPGEEC_2333/tree/main/slides/))
-   - 5G prototyping tools: srsRAN ([slides](https://github.com/vicentesousa/PPGEEC_2333/blob/main/slides/); [vídeo](https://github.com/vicentesousa/PPGEEC_2333/tree/main/slides/))
+   - 5G prototyping tools: srsRAN ([slides](https://github.com/vicentesousa/PPGEEC_2333/blob/main/slides/srsRAN%20-%20Matheus%20e%20Ricardo.pdf); [vídeo](https://drive.google.com/file/d/1zdIbXCy7g-2vaRk11EU5FE6MtgmAXX_t/view?usp=drive_link))
    - 3GPP Releases 17, 18 e 19 ([slides](https://github.com/vicentesousa/PPGEEC_2333/tree/main/slides/); [vídeo](https://github.com/vicentesousa/PPGEEC_2333/blob/main/slides/))
    - 6G: iniciativas e visão sobre aplicações e requisitos ([slides](https://github.com/vicentesousa/PPGEEC_2333/tree/main/slides/); [vídeo](https://github.com/vicentesousa/PPGEEC_2333/blob/main/slides/))
 
