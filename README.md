@@ -18,7 +18,7 @@
       - Hands-on 02: Instalação da estação base 5G (gNB) - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H02_5G_gNB_UNI_III.ipynb) - [Link alternativo via nbviewer](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H02_5G_gNB_UNI_III.ipynb)
       - Hands-on 03: Instalação do User Equipment (UE) - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/blob/main/howtos/H03_5G_UE_UNI_III.ipynb) - [Link alternativo via nbviewer](https://nbviewer.jupyter.org/github/vicentesousa/DCO1020/blob/main/howtos/H03_5G_UE_UNI_III.ipynb)
    - Instalação de versão OAI 5G simulada via imagens Docker [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H01_5GFast_Deployment_UNI_III.ipynb) - [Link alternativo via nbviewer](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H01_5GFast_Deployment_UNI_III.ipynb)
-   - Instalação de versão OAI 4G simulada (Todos) – HOWTO a ser construído
+   - Instalação de versão OAI 4G simulada (Todos) – [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/blob/main/howtos/H04_4G_EPC.ipynb) - [Link alternativo via nbviewer](https://github.com/vicentesousa/PPGEEC_2333/blob/main/howtos/H04_4G_EPC.ipynb)
    - Validação de Instalação de versão mais atualizada do OAI (todos) – HOWTO a ser construído
 
 ### Construção de HOWTOS
