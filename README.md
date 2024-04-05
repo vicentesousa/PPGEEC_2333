@@ -19,9 +19,10 @@
       - Hands-on 03: Instalação do User Equipment (UE) - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/blob/main/howtos/H03_5G_UE_UNI_III.ipynb) - [Link alternativo via nbviewer](https://nbviewer.jupyter.org/github/vicentesousa/DCO1020/blob/main/howtos/H03_5G_UE_UNI_III.ipynb)
    - Instalação de versão OAI 5G simulada via imagens Docker [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H01_5GFast_Deployment_UNI_III.ipynb) - [Link alternativo via nbviewer](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H01_5GFast_Deployment_UNI_III.ipynb)
    - Instalação de versão OAI 4G simulada (Todos) – [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/blob/main/howtos/H04_4G_EPC.ipynb) - [Link alternativo via nbviewer](https://github.com/vicentesousa/PPGEEC_2333/blob/main/howtos/H04_4G_EPC.ipynb)
+   - Instalação de um sistema OAI 5G SA completo (atualizado para a versão mais estável em 05.04.2024) - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/blob/main/howtos/H01_5G_Complete_Deployment.ipynb)
    - Validação de Instalação de versão mais atualizada do OAI (todos) – HOWTO a ser construído
 
 ### Construção de HOWTOS
    - Instalação de versão OAI 4G simulada (Paulo) – Construção de HOWTO
-   - Instalação de versão mais atualizada do OAI (Ricardo) – [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/blob/main/howtos/H01_5GFast_Deployment_UPDATED_v2.1.ipynb)
+   - Instalação de versão mais atualizada do OAI (Ricardo) – Construção de HOWTO
    - Instalação de 5G com srsRAN simulada (Carlos e Matheus) – Construção de HOWTO
