@@ -1,0 +1,157 @@
+version: '3'
+services: 
+  mongo:
+    image: mongo
+    environment:
+      MONGO_INITDB_DATABASE: open5gs
+    networks:
+          public_net:
+              ipv4_address: 192.168.75.130
+  
+  amf:
+    image: gradiant/open5gs:2.7.5
+    volumes:
+      - ./config/amf.yaml:/opt/open5gs/etc/open5gs/amf.yaml
+    command: 
+      - open5gs-amfd 
+    restart : on-failure
+    ports:
+      - 38412:38412
+    networks:
+            public_net:
+                ipv4_address: 192.168.75.131
+    
+  ausf:
+    image: gradiant/open5gs:2.7.5
+    command: 
+      - open5gs-ausfd
+    restart : on-failure
+    networks:
+            public_net:
+                ipv4_address: 192.168.75.132
+    
+  bsf:
+    image: gradiant/open5gs:2.7.5
+    command: open5gs-bsfd
+    restart : on-failure
+    networks:
+            public_net:
+                ipv4_address: 192.168.75.133
+    
+  nrf:
+    image: gradiant/open5gs:2.7.5
+    volumes:
+      - ./config/nrf.yaml:/opt/open5gs/etc/open5gs/nrf.yaml
+    command: open5gs-nrfd
+    restart : on-failure 
+    networks:
+            public_net:
+                ipv4_address: 192.168.75.134
+    
+  nssf:
+    image: gradiant/open5gs:2.7.5
+    volumes:
+      - ./config/nssf.yaml:/opt/open5gs/etc/open5gs/nssf.yaml
+    command: open5gs-nssfd   
+    restart : on-failure 
+    networks:
+            public_net:
+                ipv4_address: 192.168.75.135
+    
+  pcf:
+    image: gradiant/open5gs:2.7.5
+    command: 
+      - open5gs-pcfd
+    environment:
+      DB_URI: mongodb://mongo/open5gs
+    restart : on-failure
+    networks:
+            public_net:
+                ipv4_address: 192.168.75.136
+    
+  scp:
+    image: gradiant/open5gs:2.7.5
+    command: open5gs-scpd
+    environment:
+      DB_URI: mongodb://mongo/open5gs
+    restart: on-failure   
+    networks:
+            public_net:
+                ipv4_address: 192.168.75.137
+
+  smf:
+    image: gradiant/open5gs:2.7.5
+    volumes:
+      - ./config/smf.yaml:/opt/open5gs/etc/open5gs/smf.yaml
+    command: open5gs-smfd
+    restart : on-failure
+    networks:
+            public_net:
+                ipv4_address: 192.168.75.138
+    
+  udm:
+    image: gradiant/open5gs:2.7.5
+    restart: on-failure
+    command: 
+      - open5gs-udmd
+    networks:
+            public_net:
+                ipv4_address: 192.168.75.139
+    
+  udr:
+    image: gradiant/open5gs:2.7.5
+    restart: on-failure
+    environment:
+      DB_URI: mongodb://mongo/open5gs
+    command: 
+      - open5gs-udrd
+    networks:
+            public_net:
+                ipv4_address: 192.168.75.140
+    
+  upf:
+    image: gradiant/open5gs:2.7.5
+    user: root
+    command:
+      - open5gs-upfd
+    cap_add:
+      - all
+    privileged: true
+    restart: on-failure
+    ports:
+      - 2152:2152
+    networks:
+            public_net:
+                ipv4_address: 192.168.75.141
+    
+  webui:
+    image: gradiant/open5gs-webui:2.7.5
+    restart: on-failure
+    environment:
+      DB_URI: mongodb://mongo/open5gs
+      NODE_ENV: development
+    ports:
+      - 9999:9999
+    networks:
+            public_net:
+                ipv4_address: 192.168.75.142
+networks:
+    # public_net:
+    #     external:
+    #         name: demo-oai-public-net
+    public_net:
+        driver: bridge
+        name: pmano-public
+        ipam:
+            config:
+                - subnet: 192.168.75.128/26
+        driver_opts:
+            com.docker.network.bridge.name: "pmano"
+            com.docker.network.bridge.gateway_mode_ipv4: "routed"
+
+  # portainer:
+  #   image: portainer/portainer-ce
+  #   ports:
+  #   - 9000:9000
+  #   volumes:
+  #   - /var/run/docker.sock:/var/run/docker.sock
