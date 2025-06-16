@@ -1,5 +1,26 @@
 # PPGEEC 2333: Comunicações Móveis
 
+## PARTE III: Arquitetura e prototipagem de funcionalidades para sistemas Comunicações Móveis e Apresentações
+
+### Instalação de sistemas 5G 
+   - Instalação de versão do OAI 5G simulada por compilação do código
+      - Hands-on 00: Instalação de Máquina Virtual - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H00_VM_VBox.ipynb) - [Link alternativo via nbviewer](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H00_VM_VBox.ipynb)
+      - Hands-on 01: Instalação de Núcleo do Rede 5G (5GC) - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H01_5GCore_UNI_III.ipynb) - [Link alternativo via nbviewer](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H01_5GCore_UNI_III.ipynb)
+      - Hands-on 02: Instalação da estação base 5G (gNB) - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H02_5G_gNB_UNI_III.ipynb) - [Link alternativo via nbviewer](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H02_5G_gNB_UNI_III.ipynb)
+      - Hands-on 03: Instalação do User Equipment (UE) - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/blob/main/howtos/H03_5G_UE_UNI_III.ipynb) - [Link alternativo via nbviewer](https://nbviewer.jupyter.org/github/vicentesousa/DCO1020/blob/main/howtos/H03_5G_UE_UNI_III.ipynb)
+   ### Construção de HOWTOS
+   - Configuração e verificação de canal no OAI – Construção de HOWTO de acordo com https://gitlab.eurecom.fr/oai/openairinterface5g/-/blob/develop/openair1/SIMULATION/TOOLS/DOC/channel_simulation.md. O tutorial precisa ter no mínimo:
+      - Mudança de pathloss e verificação se seu efeito em alguma métrica de rede
+      - Mudança da potência do ruído e verificação se seu efeito na constelação do sinal recebido
+      - Instruções para instalar a ferramenta "nr-scope constellation tool" e seu uso para analisar as mudanças de potência do ruído
+      - Instruções para controle e monitoramento em tempo real (via Telnet)
+   - Instalação de versão do open5GS e srsRAN 5G simulada por compilação do código
+      - Hands-on 04: Instalação de Núcleo do Rede 5G (open5GS) - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H04_5GC_open5GS_UNI_III.ipynb) - [Link alternativo via nbviewer](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H04_5GC_open5GS_UNI_III.ipynb)
+      - Hands-on 05: Instalação da estação base 5G (gNB) srsrRAN, do RIC da O-RAN SC e do srsUE - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H05_5G_srsRAN_RIC_gNB_UE_UNI_III.ipynb) - [Link alternativo via nbviewer](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H05_5G_srsRAN_RIC_gNB_UE_UNI_III.ipynb)
+
+
+
+<!--
 ## PARTE I: Warmup em tecnologias de Comunicações Móveis Contemporâneas
 
 ### Apresentações:
@@ -26,3 +47,4 @@
    - Instalação de versão OAI 4G simulada (Paulo) – Construção de HOWTO
    - Instalação de versão mais atualizada do OAI (Ricardo) – Construção de HOWTO
    - Instalação de 5G com srsRAN simulada (Carlos e Matheus) – Construção de HOWTO
+-->
