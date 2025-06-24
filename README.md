@@ -4,7 +4,8 @@
 
 ### Parte I: Instalação de sistemas 5G com o OpenAirInterface (OAI)
    - Instalação de versão do OAI 5G simulada por compilação do código
-      - Hands-on 00: Instalação de Máquina Virtual - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H00_VM_VBox.ipynb) - [Link alternativo via nbviewer](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H00_VM_VBox.ipynb)
+      - Hands-on 00: Instalação de Máquina Virtual - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H00_VM_VBox.ipynb) - [Link alternativo via nbviewer](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H00_VM_VBox.ipynb). 
+         - Instalar e configurar uma maquina virtual Linux Ubuntu 22.04 LTS (Focal Fossa). **ATENÇÃO:** Ubuntu 22.04 e não o 20.04!!!.
       - Hands-on 01: Instalação de Núcleo do Rede 5G (5GC) - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H01_5GCore_UNI_III.ipynb) - [Link alternativo via nbviewer](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H01_5GCore_UNI_III.ipynb)
       - Hands-on 02: Instalação da estação base 5G (gNB) - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H02_5G_gNB_UNI_III.ipynb) - [Link alternativo via nbviewer](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H02_5G_gNB_UNI_III.ipynb)
       - Hands-on 03: Instalação do User Equipment (UE) - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/blob/main/howtos/H03_5G_UE_UNI_III.ipynb) - [Link alternativo via nbviewer](https://nbviewer.jupyter.org/github/vicentesousa/DCO1020/blob/main/howtos/H03_5G_UE_UNI_III.ipynb)
