@@ -34,7 +34,7 @@
    - Hands-on 04: Instalação de Núcleo do Rede 5G (open5GS) - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H04_5GC_open5GS_UNI_III.ipynb) - [Link alternativo via nbviewer](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H04_5GC_open5GS_UNI_III.ipynb)
    - Hands-on 05: Instalação da estação base 5G (gNB) srsrRAN, do RIC da O-RAN SC e do srsUE - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H05_5G_srsRAN_RIC_gNB_UE_UNI_III.ipynb) - [Link alternativo via nbviewer](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H05_5G_srsRAN_RIC_gNB_UE_UNI_III.ipynb)
    - **Entregas:**
-      - A entrega é mostrar o sistema 5G implanatado em seu Laptop. Você deve mostar em para sala de aula (data a combinar).
+      - A entrega é mostrar o sistema 5G implantado em seu Laptop. Você deve mostar em para sala de aula (data a combinar).
 <!--
 ## PARTE I: Warmup em tecnologias de Comunicações Móveis Contemporâneas
 ### Apresentações:
