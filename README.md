@@ -31,7 +31,7 @@
       -    
    -->
 ### Parte II: Instalação de sistemas 5G com o open5GS e o srsRAN 5G
-   - Hands-on 04: Instalação e integração do Núcleo do Rede 5G (open5GS), do RIC O-RAN SC, da gNB srsRAN e do UE srsrRAN - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H05_5G_srsRAN_RIC_gNB_UE_UNI_III.ipynb.ipynb) - [Link alternativo via nbviewer](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H05_5G_srsRAN_RIC_gNB_UE_UNI_III.ipynb.ipynb)
+   - Hands-on 04: Instalação e integração do Núcleo do Rede 5G (open5GS), do RIC O-RAN SC, da gNB srsRAN e do UE srsrRAN - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H05_5G_srsRAN_RIC_gNB_UE_UNI_III.ipynb) - [Link alternativo via nbviewer](https://github.com/vicentesousa/PPGEEC_2333/tree/main/howtos/H05_5G_srsRAN_RIC_gNB_UE_UNI_III.ipynb)
    - **Entregas:**
       - A entrega é mostrar o sistema 5G implantado em seu Laptop. Você deve mostrar em sala de aula (data a combinar).
 <!--
