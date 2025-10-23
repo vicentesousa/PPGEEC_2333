@@ -11,6 +11,8 @@
       - Hands-on 03: Instalação do User Equipment (UE) - [Link via Github](https://github.com/vicentesousa/PPGEEC_2333/blob/main/howtos/H03_5G_UE_UNI_III.ipynb) - [Link alternativo via nbviewer](https://nbviewer.jupyter.org/github/vicentesousa/DCO1020/blob/main/howtos/H03_5G_UE_UNI_III.ipynb)
    - **Entregas:**
       - As entregas estão especificadas ao longo do Hands-on e devem ser feitas em sala de aula (data a combinar).
+
+<!--
 ### Construção de HOWTOS (Entregas)
    - **Marilia/William:** Configuração e verificação de canal no OAI – Construção de HOWTO baseado em https://gitlab.eurecom.fr/oai/openairinterface5g/-/blob/develop/openair1/SIMULATION/TOOLS/DOC/channel_simulation.md. O tutorial precisa ter no mínimo:
       - Mudança de pathloss e verificação se seu efeito em alguma métrica de rede
@@ -23,7 +25,7 @@
       - Fazer isso para os três Use Cases
    - **Entregas:**
       - As entregas estão especificadas ao longo do Hands-on e devem ser feitas em sala de aula (data a combinar). Um arquivo .ipynb deve ser produzido para cada tutorial.
-   <!--
+   
    - Instalação do OAI em Docker e com múltiplos UEs - Construção de HOWTO baseado em https://gitlab.eurecom.fr/oai/openairinterface5g/-/blob/develop/ci-scripts/yaml_files/5g_rfsimulator/README.md. O tutorial precisa ter no mínimo:
       - Instruções de como instalar todo o OAI em Kubernetes
     
